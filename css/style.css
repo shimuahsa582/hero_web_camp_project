@@ -6,10 +6,20 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: "Space Grotesk", sans-serif;
 }
 
 body {
     font-family: "Space Grotesk", sans-serif;
+}
+
+/* primary header h1 style */
+.primary_header {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
 }
 
 /* common btn style */
@@ -40,6 +50,7 @@ body {
 .container {
     width: 1320px;
     padding: 0px 24px;
+    margin: 0 auto;
 }
 
 /* header part start */
@@ -104,12 +115,11 @@ header.container {
     column-gap: 12px;
 }
 
-.left_info p.info {
+p.banner_info {
     font-size: 16px;
     font-weight: 400;
     line-height: 230%;
     color: #000102;
-    /* color: rgba(0, 0, 1, 2); */
 }
 
 .left_info img {
@@ -125,7 +135,6 @@ header.container {
 span.banner_span-text {
     color: #966dc1;
 }
-
 
 p.banner-info_text {
     font-size: 16px;
@@ -169,7 +178,7 @@ button.enroll_btn a:hover {
 
 /*hero section part  */
 .hero_section {
-    padding-top: 50px;
+    padding: 50px 0px 125px;
 }
 
 .hero_impact_part {
@@ -181,26 +190,6 @@ button.enroll_btn a:hover {
     column-gap: 27px;
     padding: 0px 48px;
     text-align: center;
-}
-
-/* .hero_item {
-    border-right: 1px solid #dddddd;
-    box-shadow: 1px 1px 9px red;
-} */
-
-/* .hero_impact_part {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 48px;
-} */
-
-h1.hero_heading {
-    text-align: center;
-    font-size: 43px;
-    padding-top: 60px;
-    margin-bottom: 90px;
-    font-weight: 600;
 }
 
 span.hero_span_text {
@@ -227,4 +216,176 @@ span.hero_span_text {
 .hero_item img {
     padding: 14px 0px;
     width: 25%;
+}
+
+/* course section */
+.course_section {
+    padding: 70px 0px;
+}
+
+.course_section_image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 26px;
+}
+
+.course_section_image img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.course_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+    padding: 0px 10px;
+}
+
+.course_info a {
+    color: white;
+}
+
+.course_info h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* passion part style */
+section.passion_section {
+    padding-bottom: 70px;
+}
+
+.passion_details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.passion_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.item_1 {
+    background-color: rgb(227, 242, 253);
+    border-radius: 10px;
+    padding: 9px 12px;
+}
+
+.item_2 {
+    background-color: rgb(252, 228, 236);
+    border-radius: 10px;
+    padding: 22px 12px;
+}
+
+.item_3 {
+    background-color: rgb(224, 242, 241);
+    border-radius: 10px;
+    padding: 22px 12px;
+}
+
+.item_4 {
+    background-color: rgb(255, 249, 196);
+    border-radius: 10px;
+    padding: 22px 12px;
+}
+
+.info {
+    background: white;
+    width: 70px;
+    height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.head_1 {
+    border: 1px solid rgb(144, 202, 249);
+    color: rgb(21, 114, 181);
+}
+
+.head_2 {
+    border: 1px solid rgb(232, 85, 222);
+    color: rgb(84, 0, 238);
+}
+
+.head_3 {
+    border: 1px solid rgb(128, 203, 196);
+    color: rgb(0, 106, 255);
+}
+
+.head_4 {
+    border: 1px solid rgb(255, 224, 130);
+    color: rgb(248, 131, 35);
+}
+
+.info_0 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.info_0.info_1 {
+    color: rgb(21, 101, 192);
+}
+
+.info_0.info_2 {
+    color: rgb(202, 38, 165);
+}
+
+.info_0.info_3 {
+    color: rgb(14, 131, 69);
+}
+
+.info_0.info_4 {
+    color: rgb(246, 188, 47);
+}
+
+.passion_pera {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    line-height: 186%;
+}
+
+/* dream job section */
+.dream_job_section {
+    padding-bottom: 70px;
+}
+
+.vedio_section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    align-items: center;
+}
+
+p.video_pera {
+    margin-top: 12px;
+}
+
+p.video_pera a {
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+}
+
+.video_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.video_btn a {
+    color: white;
 }

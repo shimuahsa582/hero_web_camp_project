@@ -389,3 +389,107 @@ p.video_pera a {
 .video_btn a {
     color: white;
 }
+
+/* enroll section */
+.enroll_img {
+    position: relative;
+    overflow: hidden;
+}
+
+.enroll_img img {
+    width: 100%;
+    border-radius: 56px;
+}
+
+.enroll_description {
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 51px;
+}
+
+.enroll_info h3 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.enroll_h2 {
+    color: rgb(255, 162, 5);
+    margin-bottom: 20px;
+    font-size: 53px;
+    font-weight: 600;
+}
+
+.enroll_info h1 {
+    color: rgb(255, 255, 255);
+    font-size: 53px;
+    margin-bottom: 30px;
+}
+
+p.enroll_pera {
+    color: rgb(255, 255, 255);
+    width: 71%;
+    margin: 0 auto;
+    font-weight: 500;
+    line-height: 169%;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.enroll_btn a {
+    color: rgb(255, 255, 255);
+}
+
+.enroll_btn a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* footer section */
+.information_details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.information_logo img {
+    width: 195px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media qurery */
+@media screen and (max-width:576px) {
+    .banner_top_part {
+        flex-wrap: wrap;
+    }
+
+    /* .logo img {
+        width: 150px;
+    } */
+
+    .navber nav ul {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .navber nav ul a {
+        font-size: 14px;
+    }
+}
